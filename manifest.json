@@ -1,0 +1,14 @@
+{
+    "name": "ZephyCode AdBlocker",
+    "version": "1.0",
+    "description": "ZephyCode AdBlocker",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icon/logo_16.png",
+        "128": "icon/logo_128.png"
+    },
+    "manifest_version": 2
+}
